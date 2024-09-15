@@ -1,0 +1,65 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: white;
+
+    
+}
+sub{
+    font-size: x-small;
+}
+
+
+
+.navbar a:hover{
+    color: #ffc107;
+    background-color: black; 
+
+}
+
+
+.banner{
+    background-image: url(./images/img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px;
+}
+
+span{
+    color: #ffc107;
+}
+
+
+.card-body,.m_card {
+    background-color: black;
+    color: white;
+    
+}
+
+.menu-img{
+    height :200px;
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+.menu-img:hover{
+    transform: scale(1.09);
+}
+
+.c-btn{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.t-hov:hover{
+    transform: scale(1.1);
+
+}
